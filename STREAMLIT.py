@@ -19,7 +19,7 @@ def quick_sort(arr):
   return quick_sort(left) + middle + quick_sort(right)
 
 def main():
-  st.title("Integer Ascending Sort")
+  st.title("Integer Sorting (Ascending)")
 
   sorting_algorithm = st.radio("Pilih algoritma sorting", ("Bubble Sort", "Quick Sort"))
 
