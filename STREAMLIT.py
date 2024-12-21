@@ -1,6 +1,5 @@
 import streamlit as st
 import time
-import random
 
 def bubble_sort(arr):
   n = len(arr)
@@ -20,7 +19,7 @@ def quick_sort(arr):
   return quick_sort(left) + middle + quick_sort(right)
 
 def main():
-  st.title("Algoritma Sorting")
+  st.title("Integer Ascending Sort")
 
   sorting_algorithm = st.radio("Pilih algoritma sorting", ("Bubble Sort", "Quick Sort"))
 
